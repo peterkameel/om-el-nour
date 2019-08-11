@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<android.support.v7.widget.CardView
+            android:id="@+id/Admin_Card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Admin_Item_Card">
+
+        <LinearLayout
+                android:id="@+id/Main_Layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+            <!--Contain Name && Class-->
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <!--Item Name-->
+                <TextView
+                        android:id="@+id/Item_Class"
+                        android:text="@string/Item_Class_test"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Item_Text"/>
+                <!--Item_Class-->
+                <TextView
+                        android:id="@+id/Item_Name"
+                        android:text="@string/Item_Name_test"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Item_Text"/>
+
+            </LinearLayout>
+            <!--Item Address-->
+            <TextView
+                    android:id="@+id/Item_Address"
+                    android:text="@string/Item_Address_test"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/Item_Margin"
+                    style="@style/Item_Text"/>
+
+            <!--Contain call-done-comment image Buttons-->
+            <LinearLayout
+                    android:id="@+id/Image_Buttons_Layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/Light_Gray">
+                <!--Call Button-->
+                <ImageButton
+                        android:id="@+id/call"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_call"
+                        style="@style/Item_Image_Button"/>
+                <!--done Button-->
+                <ImageButton
+                        android:id="@+id/done"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_done"
+                        style="@style/Item_Image_Button"/>
+                <!--comment Button-->
+                <ImageButton
+                        android:id="@+id/comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_comment"
+                        style="@style/Item_Image_Button"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

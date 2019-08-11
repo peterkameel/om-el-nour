@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Om_El_Nour</string>
+
+    <!--Login Activity-->
+    <string name="AppName">Om EL Nour Family</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="email">User Name</string>
+    <string name="password">Password</string>
+    <string name="Remember">Remember Me</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="login">login</string>
+    <string name="Guide">وَافْتَقِدْ سَلاَمَةَ إِخْوَتِك َ(صموئيل الأول18:17)</string>
+
+    <!--Main Recycler item-->
+    <string name="Item_Name_test">بيتر كميل</string>
+    <string name="Item_Class_test">رابعه</string>
+    <string name="Item_Address_test">اسيوط-حي السادات بجوار المكافحه</string>
+    <string name="Item_Phone_test">01203931535</string>
+
+    <!--main_menu titles-->
+    <string name="Add_User">Add User</string>
+    <string name="List">Not Done</string>
+    <string name="ListDone">List Done</string>
+    <string name="statistics">Statistics</string>
+    <string name="Start_Plan">Start Plan</string>
+    <string name="End_Plan">End Plan</string>
+    <string name="Logout">Logout</string>
+
+    <!--comment.xml-->
+    <string name="comment_hint">Write your Comment</string>
+    <string name="comment_cancel">Cancel</string>
+    <string name="comment_ok">Comment</string>
+
+    <!--date.xml-->
+    <string name="Date_cancel">Cancel</string>
+    <string name="Date_ok">OK</string>
+
+    <!--add_user.xml-->
+    <string name="User_Name">Name</string>
+    <string name="User_Email">Email</string>
+    <string name="User_Password">Password</string>
+    <string name="User_Code">Code</string>
+    <string name="User_Gender">Gender</string>
+    <string name="Gender_Male">Male</string>
+    <string name="Gender_Female">Female</string>
+    <string name="User_Permission">Permission</string>
+    <string name="Permission_A">A</string>
+    <string name="Permission_B">B</string>
+    <string name="User_Cancel">Cancel</string>
+    <string name="User_Add">ADD</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:orderInCategory="100"
+        android:title="@string/abc_search_hint"
+        app:showAsAction="always" />
+    <item
+            android:id="@+id/ADD_User"
+            android:orderInCategory="100"
+            android:title="@string/Add_User"
+            app:showAsAction="never"/>
+    <item
+        android:id="@+id/NotDone"
+        android:orderInCategory="100"
+        android:title="@string/List"
+        app:showAsAction="never"/>
+    <item
+            android:id="@+id/ListDone"
+            android:orderInCategory="100"
+            android:title="@string/ListDone"
+            app:showAsAction="never"/>
+    <item
+        android:id="@+id/statistics"
+        android:orderInCategory="100"
+        android:title="@string/statistics"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Start"
+        android:orderInCategory="100"
+        android:title="@string/Start_Plan"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/End"
+        android:orderInCategory="100"
+        android:title="@string/End_Plan"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/Logout"
+        android:orderInCategory="100"
+        android:title="@string/Logout"
+        app:showAsAction="withText"/>
+</menu>

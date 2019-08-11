@@ -1,0 +1,96 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Dark_Gray</item>
+        <item name="colorPrimaryDark">@color/Dark_Gray</item>
+        <item name="colorAccent">@color/off_White</item>
+        <item name="android:textColorSecondary">@color/off_White</item>
+    </style>
+    <style name="SecondaryColor" parent="AppTheme">
+        <item name="colorAccent">@color/colorTextView</item>
+        <item name="android:textColorSecondary">@color/colorTextView</item>
+    </style>
+
+
+    <!--Style Of Login Activity-->
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/colorSplashText</item>
+    </style>
+    <style name="CheckBox">
+        <item name="colorAccent">@color/colorTextView</item>
+        <item name="android:textColorSecondary">@color/colorTextView</item>
+    </style>
+
+    <!--Style Of Main Recycler item-->
+    <style name="Admin_Item_Card">
+        <item name="cardCornerRadius">@dimen/Item_Card_Rounds</item>
+        <item name="android:background">@color/off_White</item>
+        <item name="android:layout_margin">@dimen/Item_Card_Margin</item>
+    </style> <!--Style Of The Card-->
+    <style name="Item_Text">
+        <item name="android:layout_marginRight">@dimen/Item_Margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/Dark_Gray</item>
+        <item name="android:textSize">@dimen/Item_Test_size</item>
+        <item name="android:layout_marginTop">@dimen/Item_Margin</item>
+    </style>       <!--Style Of all text view inside the card-->
+    <style name="Item_Image_Button" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_weight">1</item>
+    </style> <!--Style Of all the three Image Buttons-->
+
+    <!--Style of Comment.xml-->
+    <style name="comment_card" parent="Admin_Item_Card"/>  <!--Style Of The Card-->
+    <style name="comment_EditText">
+        <item name="android:hint">@string/comment_hint</item>
+        <item name="android:textSize">@dimen/comment_text_size</item>
+        <item name="android:textColor">@color/Dark_Gray</item>
+        <item name="android:layout_marginLeft">@dimen/comment_edittext_margin</item>
+        <item name="android:layout_marginRight">@dimen/comment_edittext_margin</item>
+        <item name="android:layout_marginTop">@dimen/comment_edittext_margin</item>
+    </style>                     <!--Style Of The EditText-->
+    <style name="comment_Buttons" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/Dark_Gray</item>
+    </style>  <!--Style Of Both Buttons Cancel && Comment-->
+
+    <!--Style of Date.xml-->
+    <style name="Date_card" parent="Admin_Item_Card"/>
+    <style name="Date_Buttons" parent="comment_Buttons"/>
+
+    <!--Style of Add_User.xml-->
+    <style name="User_Card" parent="Admin_Item_Card"/> <!--Style of the Card-->
+    <style name="User_AppCompatEditText">
+        <item name="android:textSize">@dimen/User_Text_Size</item>
+        <item name="android:textColor">@color/Dark_Gray</item>
+        <item name="android:textColorHint">@color/Dark_Gray</item>
+        <item name="android:layout_marginLeft">@dimen/User_Margin_Side</item>
+        <item name="android:layout_marginRight">@dimen/User_Margin_Side</item>
+        <item name="android:layout_marginTop">@dimen/User_Margin_Top</item>
+    </style> <!--Style of EditText (Name-Email-Password-Code)-->
+    <style name="User_LinearLayout">
+        <item name="android:layout_marginLeft">@dimen/User_Margin_Side</item>
+        <item name="android:layout_marginRight">@dimen/User_Margin_Side</item>
+        <item name="android:layout_marginTop">@dimen/User_Margin_Top</item>
+    </style>
+    <style name="User_Buttons" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/Dark_Gray</item>
+    </style> <!--Style of Buttons ADD && Cancel-->
+    <style name="User_TextView">
+        <item name="android:textSize">@dimen/User_Text_Size</item>
+        <item name="android:textColor">@color/Dark_Gray</item>
+    </style> <!--Style of TextView (Gender && Permission)-->
+    <style name="User_Radio">
+        <item name="android:textColor">@color/Dark_Gray</item>
+        <item name="android:textSize">@dimen/User_Text_Size</item>
+    </style> <!--Style of RadioButtons (Male-Female && A-B)-->
+
+    <!--Style Of AlertDialog-->
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/Dark_Gray</item>
+        <item name="android:textColor">@color/Dark_Gray</item>
+    </style>
+
+</resources>

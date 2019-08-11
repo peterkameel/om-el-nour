@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Login -->
+
+    <!--Main Recycler item-->
+    <dimen name="Item_Test_size">25sp</dimen>
+    <dimen name="Item_Card_Margin">10dp</dimen>
+    <dimen name="Item_Margin">10dp</dimen>
+    <dimen name="Item_Card_Rounds">10dp</dimen>
+
+    <!--comment.xml-->
+    <dimen name="comment_edittext_margin">10dp</dimen>
+    <dimen name="comment_text_size">25sp</dimen>
+
+    <!--add_user.xml-->
+    <dimen name="User_Text_Size">25sp</dimen>
+    <dimen name="User_Margin_Side">20dp</dimen>
+    <dimen name="User_Margin_Top">10dp</dimen>
+
+</resources>

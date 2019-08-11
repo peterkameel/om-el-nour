@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/SecondaryColor">
+
+<android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/User_Card">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/User_Margin_Top">
+
+        <!--User_Name EditText-->
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/Dark_Gray">
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/User_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/User_Name"
+                    style="@style/User_AppCompatEditText"
+                    android:focusableInTouchMode="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--User Email EditText-->
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/Dark_Gray">
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/User_Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/User_Email"
+                    style="@style/User_AppCompatEditText"
+                    android:focusableInTouchMode="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--User Password EditText-->
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/Dark_Gray">
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/User_Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/User_Password"
+                    style="@style/User_AppCompatEditText"
+                    android:focusableInTouchMode="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--User Code EditText-->
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/Dark_Gray">
+            <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/User_Code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/User_Code"
+                    android:inputType="number"
+                    style="@style/User_AppCompatEditText"
+                    android:focusableInTouchMode="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!--Contain Gender Options-->
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/User_LinearLayout">
+
+            <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/User_TextView"
+                    android:text="Gender "/>
+
+            <!--Choose Male or Female-->
+            <RadioGroup
+                    android:id="@+id/User_Gender"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/User_Margin_Side">
+
+                <RadioButton
+                        android:id="@+id/radio_Male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Gender_Male"
+                        style="@style/User_Radio"
+                        android:layout_weight="1"/>
+
+                <RadioButton
+                        android:id="@+id/radio_Female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Gender_Female"
+                        style="@style/User_Radio"
+                        android:layout_weight="1"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <!--Contain Permission Options-->
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/User_LinearLayout">
+
+            <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/User_TextView"
+                    android:text="Permission "/>
+
+            <!--Choose Permission A/B-->
+            <RadioGroup
+                    android:id="@+id/User_Permission"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/User_Margin_Side">
+
+
+                <RadioButton
+                        android:id="@+id/radio_A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Permission_A"
+                        style="@style/User_Radio"
+                        android:layout_weight="1"/>
+
+                <RadioButton
+                        android:id="@+id/radio_B"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Permission_B"
+                        style="@style/User_Radio"
+                        android:layout_weight="1"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <!--Contain Buttons-->
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/User_LinearLayout"
+                android:layout_gravity="right">
+
+            <Button
+                    android:id="@+id/User_cancel"
+                    android:hint="@string/User_Cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/User_Buttons"/>
+
+            <Button
+                    android:id="@+id/ADD_User"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/User_Add"
+                    style="@style/User_Buttons"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+</RelativeLayout>
